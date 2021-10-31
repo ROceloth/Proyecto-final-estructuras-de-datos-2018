@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Una red tiene estaciones -->
+<!ELEMENT Red (Estacion|Enlace)*>
+<!ATTLIST Red
+    numEstaciones CDATA #IMPLIED
+    numEnlaces CDATA #IMPLIED
+  >
+
+<!--- La estacion tiene nombre y codigo de region y una lista de clientes. -->
+<!ELEMENT Estacion (Cliente)*>
+<!ATTLIST Estacion
+    nombreEstacion CDATA #IMPLIED
+    codigo CDATA #IMPLIED
+  >
+
+<!--- Los clientes tienen nombre y telefono. -->
+<!ELEMENT Cliente EMPTY>
+<!ATTLIST Cliente
+    nombreCliente CDATA #IMPLIED
+    telefono CDATA #IMPLIED
+  >
+
+<!--- Los enlaces son de una estacion a otra. -->
+<!ELEMENT Enlace EMPTY>
+<!ATTLIST Enlace
+    primeraEstacion CDATA #IMPLIED
+    segundaEstacion CDATA #IMPLIED
+  >

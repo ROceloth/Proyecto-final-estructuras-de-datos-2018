@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Red SYSTEM "Red.dtd">
+<Red numEstaciones="40" numEnlaces="40">
+    <!--- Solo esta tiene 2 -->
+   <Estacion nombreEstacion="A1" codigo="1">
+       <Cliente nombreCliente="Carlos" telefono="56581111"/>
+       <Cliente nombreCliente="Joaquin" telefono="55667788"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A2" codigo="2">
+       <Cliente nombreCliente="Pedro" telefono="55771122"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A3" codigo="3">
+       <Cliente nombreCliente="Raúl" telefono="55443322"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A4" codigo="4">
+       <Cliente nombreCliente="Luis" telefono="11223311"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A5" codigo="5">
+       <Cliente nombreCliente="Juan" telefono="55883322"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A6" codigo="6">
+       <Cliente nombreCliente="Enrique" telefono="55443300"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A7" codigo="7">
+       <Cliente nombreCliente="Fernando" telefono="55443301"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A8" codigo="8">
+       <Cliente nombreCliente="Cristopher" telefono="55443302"/>
+   </Estacion>
+   
+    <Estacion nombreEstacion="A9" codigo="9">
+       <Cliente nombreCliente="Oscar" telefono="55443303"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A10" codigo="10">
+       <Cliente nombreCliente="Ana" telefono="55473310"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A11" codigo="11">
+       <Cliente nombreCliente="Carlos" telefono="55963311"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A12" codigo="12">
+       <Cliente nombreCliente="Daniel" telefono="55173312"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A13" codigo="13">
+       <Cliente nombreCliente="Eduardo" telefono="55413313"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A14" codigo="14">
+       <Cliente nombreCliente="Erick" telefono="55253314"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A15" codigo="15">
+       <Cliente nombreCliente="Ricardo" telefono="55243315"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A16" codigo="16">
+       <Cliente nombreCliente="Diego" telefono="55253316"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A17" codigo="17">
+       <Cliente nombreCliente="May" telefono="55103317"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A18" codigo="18">
+       <Cliente nombreCliente="Pablo" telefono="55693318"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A19" codigo="19">
+       <Cliente nombreCliente="Jorge" telefono="55233319"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A20" codigo="20">
+       <Cliente nombreCliente="Ivan" telefono="55223320"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A21" codigo="21">
+       <Cliente nombreCliente="Alejandro" telefono="55913321"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A22" codigo="22">
+       <Cliente nombreCliente="Julio" telefono="55433322"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A23" codigo="23">
+       <Cliente nombreCliente="Veronica" telefono="55913323"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A24" codigo="24">
+       <Cliente nombreCliente="Roberto" telefono="55573324"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A25" codigo="25">
+       <Cliente nombreCliente="Sasuke" telefono="55543325"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A26" codigo="26">
+       <Cliente nombreCliente="Mauricio" telefono="55593326"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A27" codigo="27">
+       <Cliente nombreCliente="Alfonso" telefono="55863327"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A28" codigo="28">
+       <Cliente nombreCliente="Naruto" telefono="55843328"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A29" codigo="29">
+       <Cliente nombreCliente="María" telefono="55683329"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A30" codigo="30">
+       <Cliente nombreCliente="Fernanda" telefono="55143330"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A31" codigo="31">
+       <Cliente nombreCliente="Kasuma" telefono="55563331"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A32" codigo="32">
+       <Cliente nombreCliente="Miguel" telefono="55763332"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A33" codigo="33">
+       <Cliente nombreCliente="Oliver" telefono="55593333"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A34" codigo="34">
+       <Cliente nombreCliente="Rossana" telefono="55723334"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A35" codigo="35">
+       <Cliente nombreCliente="Elias" telefono="55983335"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A36" codigo="36">
+       <Cliente nombreCliente="Zeus" telefono="55423336"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A37" codigo="37">
+       <Cliente nombreCliente="Froylan" telefono="55273337"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A38" codigo="38">
+       <Cliente nombreCliente="Rafael" telefono="55823338"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A39" codigo="39">
+       <Cliente nombreCliente="Edgar" telefono="55693339"/>
+   </Estacion>
+   
+   <Estacion nombreEstacion="A40" codigo="40">
+       <Cliente nombreCliente="Oceloth" telefono="55693340"/>
+   </Estacion>
+   <!--- 40 estaciones enlazadas en linea :v. -->
+   
+   <Enlace primeraEstacion="1" segundaEstacion="2"/>
+   
+   <Enlace primeraEstacion="2" segundaEstacion="3"/>
+   
+   <Enlace primeraEstacion="3" segundaEstacion="4"/>
+   
+   <Enlace primeraEstacion="4" segundaEstacion="5"/>
+   
+   <Enlace primeraEstacion="5" segundaEstacion="6"/>
+
+   <Enlace primeraEstacion="6" segundaEstacion="7"/>
+
+   <Enlace primeraEstacion="7" segundaEstacion="8"/>
+
+   <Enlace primeraEstacion="8" segundaEstacion="9"/>
+
+   <Enlace primeraEstacion="9" segundaEstacion="10"/>
+
+   <Enlace primeraEstacion="10" segundaEstacion="11"/>
+
+   <Enlace primeraEstacion="11" segundaEstacion="12"/>
+
+   <Enlace primeraEstacion="12" segundaEstacion="13"/>
+
+   <Enlace primeraEstacion="13" segundaEstacion="14"/>
+
+   <Enlace primeraEstacion="14" segundaEstacion="15"/>
+
+   <Enlace primeraEstacion="15" segundaEstacion="16"/>
+
+   <Enlace primeraEstacion="16" segundaEstacion="17"/>
+
+   <Enlace primeraEstacion="17" segundaEstacion="18"/>
+
+   <Enlace primeraEstacion="18" segundaEstacion="19"/>
+
+   <Enlace primeraEstacion="19" segundaEstacion="20"/>
+
+   <Enlace primeraEstacion="20" segundaEstacion="21"/>
+
+   <Enlace primeraEstacion="21" segundaEstacion="22"/>
+
+   <Enlace primeraEstacion="22" segundaEstacion="23"/>
+
+   <Enlace primeraEstacion="23" segundaEstacion="24"/>
+
+   <Enlace primeraEstacion="24" segundaEstacion="25"/>
+
+   <Enlace primeraEstacion="25" segundaEstacion="26"/>
+
+   <Enlace primeraEstacion="26" segundaEstacion="27"/>
+
+   <Enlace primeraEstacion="27" segundaEstacion="28"/>
+
+   <Enlace primeraEstacion="28" segundaEstacion="29"/>
+
+   <Enlace primeraEstacion="29" segundaEstacion="30"/>
+
+   <Enlace primeraEstacion="30" segundaEstacion="31"/>
+
+   <Enlace primeraEstacion="31" segundaEstacion="32"/>
+
+   <Enlace primeraEstacion="32" segundaEstacion="33"/>
+
+   <Enlace primeraEstacion="33" segundaEstacion="34"/>
+
+   <Enlace primeraEstacion="34" segundaEstacion="35"/>
+
+   <Enlace primeraEstacion="35" segundaEstacion="36"/>
+
+   <Enlace primeraEstacion="36" segundaEstacion="37"/>
+
+   <Enlace primeraEstacion="37" segundaEstacion="38"/>
+
+   <Enlace primeraEstacion="38" segundaEstacion="39"/>
+
+   <Enlace primeraEstacion="39" segundaEstacion="40"/>
+   
+   <Enlace primeraEstacion="40" segundaEstacion="1"/>
+
+   <!--- 40 aristas (en un circulo) es una grafica no dirigida:v. --> 
+   <!--- Representa 80 enlaces (u,v) y (v,u) es una grafica no dirigida. --> 
+</Red>
